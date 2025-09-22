@@ -121,7 +121,8 @@ public class Warehouse {
         truck s = truckQueue.poll();
 
         System.out.println("Loaded: " + c + " → " + s);
-        System.out.println("Remaining containers: " + warehouseStack.size());
-        System.out.println("Remaining ships waiting: " + truckQueue.size());
+        System.out.println("Remaining Items: " + warehouseStack.size());
+        System.out.println("Remaining Trucks waiting: " + truckQueue.size());
     }
 }
+
